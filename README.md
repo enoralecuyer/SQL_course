@@ -109,3 +109,19 @@ SELECT employee.name, employee.age
 FROM employee
 WHERE employee.salary > 30000;
 ````
+
+### 4. MySQL Windows Installation + PopSQL (text editor)
+
+1. [Download MySQL Community Server](https://dev.mysql.com/downloads/mysql/)
+2. Launch MySQL 5.4 Command Line Client
+3. Enter your password
+
+``` 
+create database pineapple;
+```
+4. [Download PopSQL](https://popsql.com/)
+
+
+### 5. MySQL Mac Installation + PopSQL (text editor)
+
+### 6. Creating Tables
