@@ -110,7 +110,7 @@ FROM employee
 WHERE employee.salary > 30000;
 ````
 
-### 4. MySQL Windows Installation + PopSQL (text editor)
+## 4. MySQL Windows Installation
 
 1. [Download MySQL Community Server](https://dev.mysql.com/downloads/mysql/)
 2. Launch MySQL 5.4 Command Line Client
@@ -119,9 +119,12 @@ WHERE employee.salary > 30000;
 ``` 
 create database pineapple;
 ```
-4. [Download PopSQL](https://popsql.com/)
+## 5. PopSQL Installation
 
+1. [Download PopSQL](https://popsql.com/)
+2. Create a PopSQL account
+3. Connect your MySQL server to PopSQL (replace with the name of your own database)
+* ![Screenshot (721)](https://user-images.githubusercontent.com/48727972/193469196-18719dc0-94d8-4b2d-8d59-2e48b521165d.png)
 
-### 5. MySQL Mac Installation + PopSQL (text editor)
+## 6. Creating Tables
 
-### 6. Creating Tables
