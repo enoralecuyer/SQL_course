@@ -128,3 +128,9 @@ create database pineapple;
 
 ## 6. Creating Tables
 
+### 6.1 Data Types
+
+```
+INT  -- whole numbers
+DECIMAL -- decimal numbers, exact value. (M) is the total number of digits you want to store
+```
