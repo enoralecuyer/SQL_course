@@ -64,4 +64,15 @@
 ### 1.5 Query
 A query is a request made to the DBMS for specific information. 
 
-## Tables and Keys
+## 2. Tables and Keys
+
+### 2.1 Tables
+* column = a single attribute
+* row = an entry
+
+### 2.2 Types of keys
+* **primary key** = used to uniquely identify a specific row (number, email...)
+* **surrogate key** = a key that has no mapping to anything in the real world, e.g a random number assigned to an employee
+* **natural key** = a key that uniquely identify a user with a key that has a mapping in the real world, e.g employee's SSN.
+* **foreign key** = an attribute that we can store on a DB table that will link us to another DB table, e.g employee's department. That foreign key becomes the primary key inside of another table. It is a way we can define relationships between tables. It can be used in the same table as well. 
+* **composite key** = a key that needs two attributes, it is made up of two columns. Only together they can uniquely identify each row. It can be made of two foreign keys, making up together the primary key of the table. 
