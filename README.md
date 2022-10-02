@@ -76,3 +76,36 @@ A query is a request made to the DBMS for specific information.
 * **natural key** = a key that uniquely identify a user with a key that has a mapping in the real world, e.g employee's SSN.
 * **foreign key** = an attribute that we can store on a DB table that will link us to another DB table, e.g employee's department. That foreign key becomes the primary key inside of another table. It is a way we can define relationships between tables. It can be used in the same table as well. 
 * **composite key** = a key that needs two attributes, it is made up of two columns. Only together they can uniquely identify each row. It can be made of two foreign keys, making up together the primary key of the table. 
+
+## 3. SQL Basics
+
+### 3.1 SQL Definition
+
+Structured Query Language (SQL) is a language used for interacting with Relational Database Management Systems (RDBMS)
+* You can use SQL to get the RDBMS to do things for you:
+   *  Create, retrieve, update, and delete data
+   *  Create and manage databases
+   *  Design and create database tables
+   *  Perform admin tasks (security, user management, import/export...)
+
+### 3.2 The four types of languages in SQL
+SQL is a hybrid language, it's basically 4 languages in one:
+* Data Query Language (DQL)
+   * Used to query the database for information
+   * Get information that is already stored there 
+* Data Definition Language (DDL)
+   * Used for defining database schemas
+* Data Control Language (DCL)
+   * Used for controlling access to the data in the database
+   * Users and permissions management
+* Data Manipulation Language (DML)
+   * Used for inserting, updating, and deleting data from the database
+
+### 3.3 Queries
+
+A query is a set of instructions given to the RDBMS (written in SQL) that tells the RDBMS what information you want it to retrieve for you.
+```
+SELECT employee.name, employee.age
+FROM employee
+WHERE employee.salary > 30000;
+````
